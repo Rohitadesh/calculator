@@ -13,10 +13,15 @@
 }
 
 .box{
-    height:50%;
-    width:30%;
+    height:60%; 
+    width: 20%;
     background-color:rebeccapurple;
 }
+@media screen and (max-width:900px){
+    .box{
+        display: block;
+     }  
+} 
 .flex{
     display:flex;
     flex-direction:column;
