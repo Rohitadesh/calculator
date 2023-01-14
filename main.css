@@ -4,17 +4,28 @@
 }
 .container{
     height:100vh;
-    width:100vh;
+    /* width:100vw; */
     /* background-color: red; */
-    border:1px solid blue;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .box{
-    height:30%;
-    width:20%;
+    height:50%;
+    width:30%;
     background-color:rebeccapurple;
 }
-.box1{
+.flex{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+}
+/* .box1{
     height:30%;
     width:20%;
     background-color:red;
-}
+} */
